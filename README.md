@@ -18,7 +18,7 @@
 - After that part finishes, double click on "Add VPN Connection" again.
 - Use the following settings:
 
-<a href="https://github.com/Zamiell/among-us-vpn/raw/master/settings.png">
+<img src="https://github.com/Zamiell/among-us-vpn/raw/master/settings.png">
 
 - For reference, you need to enter the following fields:
   - Setting Name: **Zamiel's Server**
