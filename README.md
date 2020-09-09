@@ -34,6 +34,7 @@
 
 ## Installation Instructions for MacOS
 
+~~
 - You do not have to download anything. Just follow [these instructions](https://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/5.Mac_OS_X_L2TP_Client_Setup).
 - Additional notes:
   - Set the "Service Name" to "Among Us".
@@ -42,6 +43,7 @@
   - Set the "Password" to "amongus".
   - Set the "Shared Secret" to "amongus".
   - Do NOT check the box that says "Send all traffic over VPN connection" (or else your internet will not work when connected to the VPN).
+~~
 
 <br />
 
