@@ -28,6 +28,8 @@
 - Once you have finished entering these settings, click "OK".
 - Double click on "Zamiel' Server" to connect.
 
+<img src="https://github.com/Zamiell/among-us-vpn/raw/master/settings.png">
+
 <br />
 
 ## Installation Instructions for MacOS
