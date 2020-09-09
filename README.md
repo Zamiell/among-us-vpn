@@ -16,9 +16,22 @@
 - Double click on "Add VPN Connection".
 - It will ask you if you want to create a new Network Adapter. Click "Yes".
 - After that part finishes, double click on "Add VPN Connection" again.
-- Use the following settings: <https://cdn.discordapp.com/attachments/751278349862830170/751896348441182446/unknown.png>
- (You have to use a username of "Zamiel" with anonymous authentication.)
-- Double click on "ZamielServer" to connect.
+- Use the following settings:
+
+<a href="https://github.com/Zamiell/among-us-vpn/raw/master/settings.png">
+
+- For reference, you need to enter the following fields:
+  - Setting Name: **Zamiel's Server**
+  - Host Name: **amongus.ddns.net**
+  - Port Number: **443**
+  - Virtual Hub Name: **DEFAULT**
+  - Virtual Network Adapter to Use: **[whichever one you created in the previous step, but you have to click on it]**
+  - Auth Type: **Standard Password Authentication**
+  - User Name: **amongus**
+  - Password: **amongus**
+- Once you have finished entering these settings, click "OK".
+- Double click on "Zamiel' Server" to connect.
+- A message that says "Requesting an IP address ot the DHCP server in the VPN..." will appear. There is no DHCP server on this VPN, so just click "Close". (You can also just let the message sit for a few seconds and it will go away by itself.)
 
 <br />
 
@@ -32,6 +45,12 @@
   - Set the "Password" to "amongus".
   - Set the "Shared Secret" to "amongus".
   - Do NOT check the box that says "Send all traffic over VPN connection" (or else your internet will not work when connected to the VPN).
+
+<br />
+
+## Installation Instructions for Linux
+
+- TODO
 
 <br />
 
