@@ -24,5 +24,18 @@
 
 ## Installation Instructions for MacOS
 
-- You don't have to download anything, you can use the Mac built in client, read: <https://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server>
-- Once connected to the VPN, then go into the game, and click "Local" from the main menu.
+- You do not have to download anything. Just follow [these instructions](https://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/5.Mac_OS_X_L2TP_Client_Setup).
+- Additional notes:
+  - Set the "Service Name" to "Among Us".
+  - Set the "Server Address" to "amongus.ddns.net".
+  - Set the "Account Name" to "amongus".
+  - Set the "Password" to "amongus".
+  - Set the "Shared Secret" to "amongus".
+  - Do NOT check the box that says "Send all traffic over VPN connection" (or else your internet will not work when connected to the VPN).
+
+<br />
+
+## Post-Installation Instructions
+
+- Once the VPN is connected, simply go into Among Us and choose "Local" from the main menu.
+- You will be able to join other people's games (and even host your own if you want to).
