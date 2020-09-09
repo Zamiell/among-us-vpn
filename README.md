@@ -50,7 +50,7 @@
 - Unfortunately, BlueStacks will **not** be able to access the VPN and play local games.
 - Instead, Mac users are recommended to dual-boot Windows on their Mac via [Boot Camp](https://support.apple.com/boot-camp). Apple makes installing Windows with Boot Camp extremely easy: just follow the wizard and press "Next" a bunch of times.
 - Once Boot Camp is installed, restart your computer.
-- When your Mac is turning on (booting), hold the "Option" key on the keyboard, and then you will be able to choose between booting into MacOS (e.g. like normal) or booting into Windows.
+- When your Mac is turning on, hold the "Option" key on the keyboard, and then you will be able to choose between booting into MacOS (e.g. like normal) or booting into Windows.
 - Once on Windows, download Steam, download Among Us, and set up the VPN using the above instructions for Windows.
 
 <br />
