@@ -48,8 +48,8 @@
 - Among Us is **only** released for Windows and phones (e.g. Android & iOS), so Mac users have to get creative if they want to play.
 - On a Mac, it is possible to download [BlueStacks](https://www.bluestacks.com/) (which is an Android emulator) and play the game on MacOS that way.
 - Unfortunately, BlueStacks will **not** be able to access the VPN and play local games.
-- Instead, Mac users are recommended to dual-boot Windows on their Mac via [Boot Camp](https://support.apple.com/boot-camp). Apple makes installing Windows with Boot Camp extremely easy: just follow the wizard and press "Next" a bunch of times.
-- Once Boot Camp is installed, restart your computer.
+- Instead, Mac users are recommended to dual-boot Windows on their Mac via [Boot Camp](https://support.apple.com/boot-camp). Boot Camp is a **free** thing provided by Apple for all of their users. It makes installing Windows extremely easy: just follow the wizard and press "Next" a bunch of times.
+- Once Boot Camp is finished installing, restart your computer.
 - When your Mac is turning on, hold the "Option" key on the keyboard, and then you will be able to choose between booting into MacOS (e.g. like normal) or booting into Windows.
 - Once on Windows, download Steam, download Among Us, and set up the VPN using the above instructions for Windows.
 
