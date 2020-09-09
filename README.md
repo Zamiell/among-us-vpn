@@ -17,10 +17,6 @@
 - It will ask you if you want to create a new Network Adapter. Click "Yes".
 - After that part finishes, double click on "Add VPN Connection" again.
 - Use the following settings:
-
-<img src="https://github.com/Zamiell/among-us-vpn/raw/master/settings.png">
-
-- For reference, you need to enter the following fields:
   - Setting Name: **Zamiel's Server**
   - Host Name: **amongus.ddns.net**
   - Port Number: **443**
@@ -31,7 +27,6 @@
   - Password: **amongus**
 - Once you have finished entering these settings, click "OK".
 - Double click on "Zamiel' Server" to connect.
-- A message that says "Requesting an IP address ot the DHCP server in the VPN..." will appear. There is no DHCP server on this VPN, so just click "Close". (You can also just let the message sit for a few seconds and it will go away by itself.)
 
 <br />
 
