@@ -34,16 +34,22 @@
 
 ## Installation Instructions for MacOS
 
-~~
-- You do not have to download anything. Just follow [these instructions](https://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/5.Mac_OS_X_L2TP_Client_Setup).
-- Additional notes:
-  - Set the "Service Name" to "Among Us".
-  - Set the "Server Address" to "amongus.ddns.net".
-  - Set the "Account Name" to "amongus".
-  - Set the "Password" to "amongus".
-  - Set the "Shared Secret" to "amongus".
-  - Do NOT check the box that says "Send all traffic over VPN connection" (or else your internet will not work when connected to the VPN).
-~~
+- ~~You do not have to download anything. Just follow [these instructions](https://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/5.Mac_OS_X_L2TP_Client_Setup).
+- ~~Additional notes:
+  - ~~Set the "Service Name" to "Among Us".
+  - ~~Set the "Server Address" to "amongus.ddns.net".
+  - ~~Set the "Account Name" to "amongus".
+  - ~~Set the "Password" to "amongus".
+  - ~~Set the "Shared Secret" to "amongus".
+  - ~~Do NOT check the box that says "Send all traffic over VPN connection" (or else your internet will not work when connected to the VPN).
+
+- Among Us is **only** released for Windows and phones (e.g. Android & iOS), so Mac users have to get creative if they want to play.
+- On a Mac, it is possible to download [BlueStacks](https://www.bluestacks.com/) (which is an Android emulator) and play the game on MacOS that way.
+- Unfortunately, BlueStacks will **not** be able to access the VPN and play local games.
+- Instead, Mac users are recommended to dual-boot Windows on their Mac via [Boot Camp](https://support.apple.com/boot-camp). Apple makes installing Windows with Boot Camp extremely easy: just follow the wizard and press "Next" a bunch of times.
+- Once Boot Camp is installed, restart your computer.
+- When your Mac is turning on (booting), hold the "Option" key on the keyboard, and then you will be able to choose between booting into MacOS (e.g. like normal) or booting into Windows.
+- Once on Windows, download Steam, download Among Us, and set up the VPN using the above instructions for Windows.
 
 <br />
 
