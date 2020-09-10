@@ -61,7 +61,7 @@
   - Install the game on Linux using Steam Play.
   - Install and set-up the VPN that we use.
 
-### Installing Among Us on Linux using Steam Play
+### Install Among Us on Linux using Steam Play
 
 - Enable Steam Play for unverified titles:
   1. Open Steam settings.
@@ -69,7 +69,7 @@
   3. Check "Enable Steam Play for all other titles."
 - Afterwards, install Among Us in your Steam library
 
-### Installing Softether on Linux
+### Install and configure Softether on Linux
 
 - Download and install the VPN client
   1. Navigate to https://www.softether-download.com/en.aspx?product=softether
@@ -77,34 +77,32 @@
   3. Unpack it somewhere
   4. Navigate inside the `vpnclient` folder and run the executable `.install.sh` (**not** as root)
 - Configure the VPN client
-  1. Start the VPN client with `sudo ./vpnclient start` (you can stop it afterwards with `sudo ./vpnclient stop`)
-  2. Run `./vpncmd` (**not** as root)
-  3. Enter `2` for "Management of VPN Client"
-  4. Submit a blank line to default to using `localhost`
-  5. Create a Virtual Network Adapter by entering the command `NicCreate`
+  1. Start the VPN client with `sudo ./vpnclient start`. (You can stop it afterwards with `sudo ./vpnclient stop`. )
+  2. Run `./vpncmd localhost /client`. (**not** as root)
+  5. Create a Virtual Network Adapter by entering the command `NicCreate`.
   6. Enter an arbritary name for the device. This will show up in the output of commands like `ip a` and `ifconfig` in the future. We will use the placeholder `<nicname>` to refer to this name moving forward.
     - If this gives an error, then it's possible that you need to enable TUN/TAP on your Linux kernel. To do so, run this command `echo -e "tunnel4\nip_tunnel" | sudo tee -a /etc/modules`, reboot your computer, and go back to step 1. ([Source](https://github.com/SoftEtherVPN/SoftEtherVPN/issues/148#issuecomment-352407872))
-  7. Enter `NicEnable <nicname>`
-  8. Enter `AccountCreate`
-  9. Enter `ZamielServer`
-  10. Enter `amongus.ddns.net:443`
-  11. Enter `DEFAULT`
-  12. Enter `amongus`
-  13. Enter `<nicname>`
-  14. Enter `AccountPasswordSet`
-  15. Enter `ZamielServer`
+  7. Enter `NicEnable <nicname>`.
+  8. Create a VPN Connecting Setting by entering `AccountCreate`.
+  9. Enter `ZamielServer`.
+  10. Enter `amongus.ddns.net:443`.
+  11. Enter `DEFAULT`.
+  12. Enter `amongus`.
+  13. Enter `<nicname>`.
+  14. Enter `AccountPasswordSet ZamielServer`
   16. Enter `amongus` twice
   17. Enter `standard`
   18. Enter `AccountConnect ZamielServer`
+  19. Enter `AccountStartupSet ZamielServer`
   19. Enter `exit`
-  20. Run `ifconfig`
-  21. Look for the device labeled `vpn_<nicname>`
-  22. Pick a number between 0 and 255 to use as your IP suffix
-  23. Run `sudo ifconfig vpn_<nicname> 169.254.39.<IP suffix> netmask 255.255.0.0`
-  24. Check if it's working by trying to join an ongoing game, if it isn't repeat the above step with a different IP suffix until it does.
+- Configure the connection using NetworkManager:
+  1. Make sure you have NetworkManager installed by successfully running `nmcli help`.
+  2. Run `sudo ./vpnclient stop` in the same folder as before.
+  3. Run `nmcli con add type tun con-name 'Zamiel VPN' ifname vpn_<nicname> tun.mode tap`. (Again, substitute `<nicname>` for the name you used in `NicCreate` earlier.)
+  4. Run `sudo ./vpnclient start`.
 
-Reach out to timotree on the Discord if you have issues with this.
-  
+Reach out to timotree on the Discord if you have issues with any of this.
+
 
 <br />
 
